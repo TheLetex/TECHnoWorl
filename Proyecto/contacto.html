@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto-pagina</title>
+    <link rel="stylesheet" href="css/estilo-contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="formulario">
+        <header>
+            <section id="volver">
+                <a href="index.html">Inicio</a>
+            </section>
+            <span>
+                <i class="fa-solid fa-globe"></i>
+            </span>
+        </header>
+        <form class="contacto" action="https://formspree.io/f/xvolqvdb" method="POST">
+            <label for="nombres">Nombres:</label>
+            <input type="text" name="nombres" id="nombres" name="name">
+
+            <label for="correo">Correo:</label>
+            <input type="text" name="correo" id="correo" name="email">
+
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular" id="celular">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <input type="submit" value="enviar">
+
+            <footer>
+                <div id="redes">
+                    <h4>Redes</h4>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                    <a href="#"><i class="fa-solid fa-at"></i></a>
+                </div>
+                <div id="somos">
+                    <ul>
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Politicas</a></li>
+                        <li><a href="#">Garantias</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </form>
+        <script src="https://kit.fontawesome.com/0113bec5a9.js" crossorigin="anonymous"></script>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Syne Mono', monospace;
+    /* ATRIBUTOS BACKGROUND DE BODY */
+    background-image: url(../imagenes/fondo2prueba.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:#ffffff;
+}
+
+header {
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+}
+
+#productos {
+    /* ATRIBUTOS GENERALES DE LA SECCION PRODUCTOS */
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    /* ATRIBUTOS BACKGROUND DE LA SECCION PRODUCTOS */
+    background-color: transparent;
+}
+#productos h1{
+    background-color: transparent ;
+}
+
+.contenedor1 {
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 70px 0;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* CAMBIO COLOR LETRAS */
+.contenedor{
+    color: #ffffff;
+}
+
+.contenedor4{
+    color: #ffffff;
+}
+
+/* ATRIBUTOS GENERALES DE LA CAJA NAV */
+
+#menu {
+    width: 80%;
+    height: 60px;
+    box-shadow: 1px 1px 10px 0 #000000;
+    position: fixed;
+    top: 0;
+    background-color: #38656b;
+    overflow:hidden;
+    z-index: 1;
+    /* ATRIBUTOS BORDER DE LA CAJA NAV */
+    border-radius: 30px;
+    border: 5mm ridge #5247795b
+}
+
+/* ATRIBUTOS GENERALES DE TITULO */
+#titulo{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 0.05em 0 0 #ff0000,
+    -0.025em -0.05em 0 #05fc05,
+    0.025em 0.05em 0 #0000ffbf;
+    text-align: center;
+    font-size: 70px;
+    height: 3em;
+    padding-top: 2%;
+    /* ATRIBUTO BACKGROUND DE TITULO*/
+    background-image: url(../imagenes/tecno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* ATRIBUTO BORDER DE TITULO*/
+    border: 5mm ridge #5038a85b;
+    border-radius: 10px 100px / 120px;
+
+
+}
+
+#contMenu {
+   display: flex;
+   flex-direction: row;
+}
+/* ATRIBUTOS DE IMAGEN HELLOTECHWORLD */
+
+#helloimg {
+    height: 80%;
+    position: relative;
+    top: -10px;
+    float: left;
+    clip-path: inset(19px 0px 19px 0px);
+    padding: 10% 10% 10;
+}
+/* ATTRIBUTOS DE VINCULOS LISTADOS (MOVER LISTA)*/
+div.vinculos-header{
+    position: relative;
+    top: 25px;
+    right: 40px;
+}
+/* ATTRIBUTOS DE VINCULOS LISTADOS 2 (DESDE EL ul)*/
+#lista li{
+    display: inline;
+    padding: 10px;
+    margin: 0%;
+    
+}
+/* ATTRIBUTOS DE LETRAS DE VINCULOS (DESDE EL ul)*/
+#lista a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0f0958;
+    padding: 50px;
+
+}
+
+#lista a:hover {
+    background-color: #000000;
+  }
+
+#lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+  }
+
+#slogan{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: -200px;
+    color: #ffffff; 
+    text-shadow: 0.05em 0 0 #ff0000,
+    -0.025em -0.05em 0 #05fc05,
+    0.025em 0.05em 0 #0000ffbf;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+/* ATRIBUTOS GENERALES CAJA OFRECEMOS */
+#caja-ofrecemos{
+    font-family: 'Smokum', cursive;
+    position: relative;
+    top: -500px;
+    left: 600px;
+    font-size: 35px;
+}
+
+#imgfooter{
+    position : relative;
+    top: 100px;
+    
+}
+
+#redes{
+     position: relative;
+     left: 200px;
+     font-size: 25px;
+     top: -30px;
+}
+
+/* NO TOCAR */
+#somos{
+    position: relative;
+    left: -4000000000000000px;
+}
+/* NO TOCAR */
+
+/* MOVIMIENTO FOOTER QUIENES SOMOS */
+#somos a{
+    position: relative;
+    top: -130px;
+    left: 350px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* MOVIMIENTO FOOTER QUIENES SOMOS */
+
+#productos{
+    margin: 0px;
+    border: 10mm ridge #5247795b;
+    background-color: rgba(78, 78, 119, 0.459);
+    display: flex;
+    flex-direction: column;
+
+
+}
+#imgbg{
+    opacity: 0.3;
+    background-image: url(../imagenes/textos-header.svg);
+}
+/* ATRIBUTOS DE TITULO PRODUCTO */ 
+
+#productos h1{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0.05em 0 0 #ff0000,
+    -0.025em -0.05em 0 #05fc05,
+    0.040em 0.05em 0 #0000ffbf;
+}
+
+/* ARTICULOS AREA PRODUCTOS*/
+#articulo1 p{
+    font-size: 20px;
+}
+
+#articulo2 p{
+    font-size: 20px;
+}
+
+#articulo3 p{
+    font-size: 20px;
+}
+
+#articulo1 p.textoart1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    top: -700px;
+    position: relative;
+    text-shadow: 0.05em 0 0 #ff0000,
+    -0.025em -0.05em 0 #05fc05,
+    0.040em 0.05em 0 #0000ffbf;
+    border: 2mm ridge;
+    border-radius: 100px 100px 100px 100px;
+    border-color: rgb(67, 67, 165);
+
+}
+
+#articulo1{
+border: 2mm ridge;
+
+}
+
+
+/* ARTICULOS AREA PRODUCTOS*/
+/*#body {
+    width: 64em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+}
+
+    @media screen and (max-width: 480px) {
+
+        #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img {
+            max-width: calc(100% - 2em);
+        }
+
+    }
+
+    @media screen and (max-width: 360px) {
+
+        #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img {
+            max-width: 100%;
+        }
+
+    }*/
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img{
+        max-width: 100%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img{
+        max-width: 100%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img{
+        max-width: 100%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img{
+        max-width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #body, header, .contenedor1, .contenedor, menu, caja-ofrecemos, img{
+        max-width: 100%;
+    }
+}

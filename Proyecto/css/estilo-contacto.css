@@ -1,0 +1,119 @@
+/*ESTILO PARA FORMULARIO*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/fondo2prueba.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    padding: 5%;
+    font-family: 'Press Start 2P', cursive;
+    color: transparent;
+}
+
+.formulario {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgb(0, 0, 0, .8);
+}
+
+header {
+    text-shadow: 0.05em 0 0 #ff0000, -0.025em -0.05em 0 #05fc05, 0.025em 0.05em 0 #0000ffbf;
+    overflow: hidden;
+    color: #fff;
+}
+
+header span {
+    width: 100%;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.contacto {
+    padding: .8rem;
+    overflow: none;
+    color: #ffffff;
+}
+
+.contacto label,
+.contacto input,
+.contacto textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.contacto label {
+    font-weight: 700;
+}
+
+.contacto input:not([type='submit']),
+.contacto textarea {
+    border: none;
+    border-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: #fff9f9;
+}
+
+.contacto textarea {
+    min-height: 100px;
+}
+
+input[type='submit'] {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#imgfooter {
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+#redes {
+    position: relative;
+    left: 300px;
+    font-size: 25px;
+    top: 50px;
+}
+
+
+/*ESTILO PARA FORMULARIO*/
+
+
+/*ESTILO PARA VINCULO VOLVER A INICIO*/
+
+#volver {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: #265301;
+}
+
+
+/*ESTILO PARA VINCULO VOLVER A INICIO*/
